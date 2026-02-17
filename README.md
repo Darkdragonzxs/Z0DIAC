@@ -134,10 +134,10 @@ https://shimboot.ading.dev
 https://github.com/ading2210/shimboot
 
 Although this project is completely seperate from Shimboot, it might look a bit similar. Dont worry! I won't, don't, and ever will take their code without permission, and I probably won't ask for permission anyway ^-^
+ok i might take stuff :sob: this is too hard lol
 
 ---
 
 ## License
 
 this project uses the GNU General Public License, and it states that, in simpler terms, no one is allowed to take this and call it theirs.
-just use it i dont fucking care just dont call it yours or go fuck yourself
