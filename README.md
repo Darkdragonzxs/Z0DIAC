@@ -1,5 +1,5 @@
-[logo](https://postimg.cc/GHqW5Jnj)
-
+<a href='https://postimg.cc/GHqW5Jnj' target='_blank'><img src='https://i.postimg.cc/GHqW5Jnj/Screenshot-2026-02-16-9-50-46-PM-removebg-preview.png' border='0' alt='Screenshot-2026-02-16-9-50-46-PM-removebg-preview'></a>
+<!-- ok what is happening -->
 **Z0DIAC** is a work-in-progress experimental bootloader environment for ChromeOS RMA/recovery media that allows booting multiple Linux root filesystems from a single recovery USB.
 
 ---
