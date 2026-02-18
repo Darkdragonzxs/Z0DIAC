@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Z0DIAC</title>
+
+<!-- Google Fonts (30 fonts for cycling) -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&family=Roboto&family=Montserrat&family=Lato&family=Oswald&family=Raleway&family=Open+Sans&family=PT+Sans&family=Source+Sans+Pro&family=Nunito&family=Fira+Sans&family=Work+Sans&family=Merriweather&family=Quicksand&family=Exo+2&family=Ubuntu&family=Karla&family=Roboto+Slab&family=Varela+Round&family=Josefin+Sans&family=Cabin&family=Archivo&family=Playfair+Display&family=Rubik&family=Poppins&family=Hind&family=Inconsolata&family=Orbitron&family=Titillium+Web&display=swap" rel="stylesheet">
+
+<!-- Lucide icons -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/lucide@0.259.0/dist/lucide.esm.js"></script>
+
+<!-- AOS library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<style>
+:root {
+  --border: 5px solid #000;
+  --radius: 28px;
+  --icon-color: #0f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 20px 140px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+  transition: font-family 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tagline {
+  font-family: 'IBM Plex Mono', monospace;
+  opacity: 0.7;
+  margin-bottom: 60px;
+}
+
+.section {
+  background: #fff;
+  color: #000;
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.flow {
+  font-family: 'IBM Plex Mono', monospace;
+  background: #111;
+  color: #0f0;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 0.8rem;
+  margin-top: 80px;
+}
+
+.icon {
+  color: var(--icon-color);
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<h1 id="title" data-aos="fade-down">
+  <i data-lucide="cpu" class="icon"></i> Z0DIAC
+</h1>
+<div class="tagline" data-aos="fade-up">
+Zany Operating Distributions In A Container
+</div>
+
+<div class="section" data-aos="fade-right">
+<h2><i data-lucide="info" class="icon"></i> About Z0DIAC</h2>
+<p>Z0DIAC is an upcoming multi-distro bootloader designed for research, testing, and safe Linux experimentation on external media.</p>
+<p>It will provide a clean boot chain, isolated environments, and the ability to test multiple operating systems without permanently modifying your device.</p>
+</div>
+
+<div class="section" data-aos="fade-left">
+<h2><i data-lucide="tool" class="icon"></i> Planned Features</h2>
+<ul>
+<li>Multi-distro support: Debian, Ubuntu, Arch, Alpine, and more</li>
+<li>Safe external boot with no firmware flashing</li>
+<li>Clean root filesystem pivot into systemd/OpenRC or other init systems</li>
+<li>Research-friendly boot environment</li>
+<li>Recovery and testing workflows for Linux developers</li>
+</ul>
+</div>
+
+<div class="section" data-aos="fade-right">
+<h2><i data-lucide="cpu" class="icon"></i> Inspiration</h2>
+<p>Z0DIAC is inspired by:</p>
+<ul>
+<li><a href="https://sh1mmer.me" target="_blank">sh1mmer</a> - for Chromebook RMA and shim exploration</li>
+<li><a href="https://shimboot.ading.dev" target="_blank">shimb00t</a> - since it's just like this project, with the conncept of booting OS/Linux dists on chromebooks</li>
+</ul>
+</div>
+
+<div class="section" data-aos="fade-left">
+<h2><i data-lucide="terminal" class="icon"></i> How it will work:</h2>
+<div class="flow" data-aos="zoom-in">
+  zodiac will be set up like <a href="https://shimboot.ading.dev" target="_blank">SHIMBOOT</a>, and will basically act the same, but more modern and with more choices.
+</div>
+</div>
+
+<div class="section" data-aos="fade-right">
+<h2><i data-lucide="help-circle" class="icon"></i> Notes</h2>
+<p>Z0DIAC is not yet released. I'm guessing it will be released in the next couple months.</p>
+<p>It is designed to be a great tool for developers, and for people who are just curious about this!</p>
+</div>
+
+<div class="footer" data-aos="fade-up">
+<pre>
+Lisenced under the
+GNU GPL LICENSE
+Copyright 2026 ZXS
+I think thats how it works anyway
+</div>
+
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 800,
+  once: true,
+  easing: 'ease-out-cubic',
+});
+</script>
+
+<script type="module">
+import lucide from 'https://cdn.jsdelivr.net/npm/lucide@0.259.0/dist/lucide.esm.js';
+lucide.createIcons();
+</script>
+
+<script>
+const title = document.getElementById('title');
+const fonts = [
+  'Space Grotesk','IBM Plex Mono','Roboto','Montserrat','Lato','Oswald','Raleway',
+  'Open Sans','PT Sans','Source Sans Pro','Nunito','Fira Sans','Work Sans','Merriweather',
+  'Quicksand','Exo 2','Ubuntu','Karla','Roboto Slab','Varela Round','Josefin Sans',
+  'Cabin','Archivo','Playfair Display','Rubik','Poppins','Hind','Inconsolata','Orbitron','Titillium Web'
+];
+
+let index = 0;
+setInterval(() => {
+  title.style.fontFamily = fonts[index];
+  index = (index + 1) % fonts.length;
+}, 50);
+</script>
+
+</body>
+</html>
